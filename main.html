@@ -8,23 +8,23 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form method="post">
+	<form action="main.html" method="post">
 		<h1>Job App Form</h1>
 		<div>
 			<label for="#name">Name*</label>
-			<input id="#name" type="text">
+			<input id="#name" type="text" required>
 		</div>
 		<br>
 		<div>
 			<label for="#email">Email*</label>
-			<input id="#email" type="email">
+			<input id="#email" type="email" required>
 		</div>
 		<br>
 		<div>
 			Gender*
-			<input id="#male" type="radio" name="gender" value="Male">
+			<input id="#male" type="radio" name="gender" value="Male" required>
 			<label for="#male">Male</label>
-			<input id="#female" type="radio" name="gender" value="Female">
+			<input id="#female" type="radio" name="gender" value="Female" required>
 			<label for="#female">Female</label>
 		</div>
 		<br>
@@ -41,7 +41,7 @@
 		<br>
 		<div>
 			<label for="#age">Age*</label>
-			<input id="#age" type="number">
+			<input id="#age" type="number" required>
 		</div>
 		<br>
 		<div>
